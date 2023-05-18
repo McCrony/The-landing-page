@@ -132,3 +132,26 @@ header h2{
 .card p{
     text-align: center;
 }
+
+.quote{
+    background: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.quote-text{
+    width: 50%;;
+}
+.quote p{
+    color: #1f2937;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.quote h5{
+    text-align: right;
+}
