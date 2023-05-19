@@ -89,6 +89,7 @@ header h2{
 
 .text button{
     border-radius: 8px;
+    padding: 10px;
     background-color: rgb(56, 130, 246);
     border: none;
 }
