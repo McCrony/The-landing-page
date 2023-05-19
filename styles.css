@@ -12,13 +12,15 @@ a{
     text-decoration: none;
 }
 body{
-    background: linear-gradient(to right, rgb(120, 188, 233), rgb(151, 245, 206));
+    background: #e5e7eb;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* display: flex; */
     /* justify-content: center; */
     /* align-items: center; */
 }
 
+
+/* HEADER STYLES */
 header{
     display: flex;
     justify-content: space-between;
@@ -50,6 +52,8 @@ header h2{
     font-size: 24px;
     color: #f9faf8;
 }
+
+/* HEADER CONTENT STYLES */
 .header-content{
     display:flex;
     background: #1f2937;
@@ -59,7 +63,6 @@ header h2{
 
 .text{
     width:50%;
-    height: ;
 }
 
 .text h2{
@@ -98,16 +101,19 @@ header h2{
     color: white;
 }
 
+
+/* RANDOM INFORMATIONS STYLES */
 .random-info{
-    padding: 20px;
     background: white;
-    height: 40vh;
+    padding: 20px;
+    height: 280px;
 }
 
 .cards-container{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 .random-info h2{
@@ -133,8 +139,8 @@ header h2{
     text-align: center;
 }
 
+/* QUOTATION STYLES */
 .quote{
-    background: #e5e7eb;
     display: flex;
     justify-content: center;
     align-items: center;
