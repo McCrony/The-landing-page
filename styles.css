@@ -186,3 +186,16 @@ header h2{
 .cta-container h3, p{
     color: white;
 }
+
+
+/* FOOTER SECTION */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 7vh;
+    background: #1f2937;
+
+}
