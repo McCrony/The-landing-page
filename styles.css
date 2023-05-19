@@ -10,9 +10,12 @@ header, .header-content{
 
 a{
     text-decoration: none;
+    color: white;
+    padding: 10px;
 }
+
 body{
-    background: #e5e7eb;
+    /* background: rgb(243, 142, 142); */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -84,25 +87,16 @@ header h2{
     margin: 10px;
 }
 
-.header-content button{
-    padding: 10px 25px;
-    margin: 10px;
-    cursor: pointer;
-    color: white;
-    border-radius: 10px;
+.text button{
+    border-radius: 8px;
     background-color: rgb(56, 130, 246);
     border: none;
-}
-
-.header-content a{
-    color: white;
 }
 
 
 /* RANDOM INFORMATIONS STYLES */
 .random-info{
     background: white;
-    padding: 20px;
     height: 280px;
 }
 
@@ -115,6 +109,7 @@ header h2{
 
 .random-info h2{
     text-align: center;
+    margin-top: 20px;
 }
 .card{
     margin: 20px;
@@ -134,14 +129,16 @@ header h2{
 
 .card p{
     text-align: center;
+    color: black;
 }
 
 /* QUOTATION STYLES */
 .quote{
     display: flex;
+    background: #e5e7eb;
     justify-content: center;
     align-items: center;
-    height: 40vh;
+    height: 30vh;
 }
 
 .quote-text{
@@ -187,9 +184,4 @@ header h2{
 
 .cta-container h3, p{
     color: white;
-}
-
-.cta-container a{
-    color: white;
-    padding: 10px;
 }
