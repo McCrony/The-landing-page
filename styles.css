@@ -55,7 +55,7 @@ header h2{
 /* HEADER CONTENT STYLES */
 .header-content{
     display:flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     background: #1f2937;
     justify-content: space-around;
 }
@@ -75,8 +75,6 @@ header h2{
     align-items: center;
     justify-content: center;
     background: rgb(187, 187, 187);
-    /* width: initial;
-    height: initial; */
 }
 
 .header-content p{
