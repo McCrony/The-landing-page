@@ -3,22 +3,20 @@
     margin: 0;
 }
 
-/* PADDING PROPERTIES */
-header, .header-content{
-    padding: 0 100px;
+
+/* BODY PROPERTIES */
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
+/* PADDING PROPERTIES */
 
 a{
     text-decoration: none;
     color: white;
     padding: 10px;
 }
-
-body{
-    /* background: rgb(243, 142, 142); */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 
 /* HEADER STYLES */
 header{
@@ -59,13 +57,13 @@ header h2{
     display:flex;
     flex-wrap: wrap;
     background: #1f2937;
-    justify-content: space-between;
-
+    justify-content: space-around;
 }
 
-.text, .placeholder{
-    flex: 1;
+.header-content .text{
+    width: 600px;
 }
+
 .text h2{
     font-size: 48px;
     font-weight:800;
@@ -77,8 +75,8 @@ header h2{
     align-items: center;
     justify-content: center;
     background: rgb(187, 187, 187);
-    width: 300PX;
-    height: 200px;
+    /* width: initial;
+    height: initial; */
 }
 
 .header-content p{
@@ -105,6 +103,7 @@ header h2{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 30px;
 }
 
 .random-info h2{
@@ -113,11 +112,7 @@ header h2{
     padding-top: 20px;
 }
 .card{
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    flex: 1; */
+   width: 200px;
 }
 
 .image-holder, .card p{
@@ -127,8 +122,8 @@ header h2{
 .image-holder{
     border: 2px solid rgb(56, 130, 246);
     border-radius: 10px;
-    width: 200px;
-    height: 200px;
+    width: inherit;
+    height: 200px ;
 }
 
 .card p{
